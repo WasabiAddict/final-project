@@ -14,4 +14,3 @@ const App = () => {
 
 export default App;
 
-<h1>sssssss</h1>
