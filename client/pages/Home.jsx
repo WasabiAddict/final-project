@@ -14,4 +14,3 @@ const Home = () => {
 
 export default Home;
 
-<h1>ssssssdddd</h1>
