@@ -17,15 +17,15 @@ export const Query = (query, values) => {
     });
 }
 
-import landfills from "./landfills";
-import landfilltypes from "./landfilltypes";
-import hours from "./hours";
-import prices from "./prices";
+import Landfills from "./landfills";
+import Landfilltypes from "./landfilltypes";
+import Hours from "./hours";
+import Prices from "./prices";
 
 // // this becomes db object in routes/chirps.js
 export default {
-    landfills,
-    landfilltypes,
-    hours,
-    prices
+    Landfills,
+    Landfilltypes,
+    Hours,
+    Prices
 }
