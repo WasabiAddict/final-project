@@ -5,7 +5,7 @@ const Home = () => {
         <>
             <div className="container text-center">
                 <div className="row">
-                    Home Page
+                    Not the home page
                 </div>
             </div>
         </>
