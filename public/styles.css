@@ -1,0 +1,16 @@
+#image1 {
+    background-image: url("../../client/pages/assets/DetailLand.jpg");
+}
+
+#image3 {
+    background-image: url("../../client/pages/assets/landfilldesign.jpg");
+}
+
+p {
+    font-size: 20px;
+}
+
+#h1 {
+    font-size: 80px;
+font-family: Arial, Helvetica, sans-serif;
+}
