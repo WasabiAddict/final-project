@@ -82,8 +82,10 @@ body {
 }
 
 #page-card {
-  background-color: #68b351;;
-  ;
+  background-color: #68b351;
+  -webkit-box-shadow: 20px 17px 6px 0px rgba(8,0,8,0.83);
+  -moz-box-shadow: 20px 17px 6px 0px rgba(8,0,8,0.83);
+  box-shadow: 20px 17px 6px 0px rgba(8,0,8,0.83); 
 }
 
 
