@@ -1,0 +1,98 @@
+body {
+  background-color: #87ceeb !important;
+}
+
+#check {
+  padding: 0;
+  width: 28em;
+  height: 2em;
+  margin-bottom: 6em;
+  cursor: pointer;
+}
+
+.check-box:hover {
+  accent-color: #fdfd96
+}
+
+#text-container {
+    width: 100%;
+    height: 30%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #fdfd96;
+    border: 3px solid green;
+}
+
+.p-txt {
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    text-align: center;
+   
+}
+
+
+#page-card {
+  background-color: #68b351;
+  border-width: 1px green;
+  cursor: pointer;
+}
+
+#card-title {
+  margin-top: 1.5em;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+
+
+#submission-id {
+  background-color: cyan;
+}
+
+#container-id {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: cyan;
+  max-width: 1350px !important;
+  border: 1px solid green;
+}
+
+#title-id {
+  box-sizing: border-box;
+  width: 50%;
+  border-color: black;
+  padding: 5px;
+  margin-top: 4rem !important;
+  margin-bottom: 3rem;
+  margin-left: 24em;
+  border-style: groove double;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-body {
+  font-family: "Poppins", sans-serif;
+}
+
+.group-btn {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.group-btn .btn {
+  background-color: #68b351;
+  border: 1px solid green;
+  padding: 15px 32px;
+  font-family: "Poppins", sans-serif;
+  /* display: inline-block; */
+  font-size: 16px;
+  cursor: pointer;
+  /* display: flex; */
+}
+
+.group-btn .btn:not(:last-child) {
+  border-right: none;
+}
+
+.group-btn .btn:hover {
+  background-color: #fdfd96
+}
