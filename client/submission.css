@@ -57,14 +57,15 @@ body {
 }
 
 #title-id {
+  background-color: cyan;
   box-sizing: border-box;
   width: 50%;
   border-color: black;
+  border-style: groove double;
   padding: 5px;
   margin-top: 4rem !important;
   margin-bottom: 3rem;
   margin-left: 24em;
-  border-style: groove double;
   font-family: "Poppins", sans-serif;
 }
 
@@ -83,10 +84,8 @@ body {
   border: 1px solid green;
   padding: 15px 32px;
   font-family: "Poppins", sans-serif;
-  /* display: inline-block; */
   font-size: 16px;
   cursor: pointer;
-  /* display: flex; */
 }
 
 .group-btn .btn:not(:last-child) {
