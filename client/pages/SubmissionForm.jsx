@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
-import PropTypes from 'prop-types';
 
 // Types of Demo/Construction Waste: Brick, Concrete, Ferrous Metal, Masonry, Non-Ferrous Metal, Paper/Cardboard, Plastic, Timber, Glass, Rubber/Leather, Paints/Varnishes/Adhesives
 
@@ -132,10 +131,6 @@ const SubmissionForm = ({ env }) => {
             </div>
         </>
     );
-};
-
-SubmissionForm.propTypes = {
-    env: PropTypes.object.isRequired,
 };
 
 export default SubmissionForm;
