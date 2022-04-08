@@ -10,6 +10,7 @@ body {
   cursor: pointer;
 }
 
+
 .check-box:hover {
   accent-color: #fdfd96
 }
@@ -17,75 +18,86 @@ body {
 #text-container {
     width: 100%;
     height: 30%;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
     background-color: #fdfd96;
-    border: 3px solid green;
+    border: groove black;
+    margin-bottom: 1px;
 }
 
 .p-txt {
-    font-family: "Poppins", sans-serif;
-    font-size: small;
-    text-align: center;
-   
-}
-
-
-#page-card {
-  background-color: #68b351;
-  border-width: 1px green;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
   cursor: pointer;
 }
 
 #card-title {
   margin-top: 1.5em;
   text-decoration: underline;
-  font-family: "Poppins", sans-serif;
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 800 !important;
 }
 
 
 #submission-id {
   background-color: cyan;
+  border-top-style: groove !important;
+  border-bottom-style: groove !important;
+  border-bottom-left-radius: 10em;
+  border-bottom-right-radius: 10em;
+  border:solid black;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 6em;
+  margin-bottom: 10em;
+  height: 800px;
 }
 
 #container-id {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 17rem;
   background-color: cyan;
   max-width: 1350px !important;
-  border: 1px solid green;
 }
 
 #title-id {
   background-color: cyan;
-  box-sizing: border-box;
-  width: 50%;
-  border-color: black;
-  border-style: groove double;
+  border: groove black;
   padding: 5px;
-  margin-top: 4rem !important;
-  margin-bottom: 3rem;
-  margin-left: 24em;
-  font-family: "Poppins", sans-serif;
+  height:17em;
+  margin-top: 3em;
+  margin-bottom: 1px;
+  border-top-right-radius: 10em;
+  border-top-left-radius: 10em;
+
+}
+
+.h1, h1 {
+  font-family: "Times New Roman", Times, serif !important;
+  font-weight: 800 !important;
+  font-size: 3.1em !important;
 }
 
 .card-body {
   font-family: "Poppins", sans-serif;
 }
 
-.group-btn {
-  text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+#page-card {
+  background-color: #68b351;
+  -webkit-box-shadow: 20px 17px 6px 0px rgba(8,0,8,0.83);
+  -moz-box-shadow: 20px 17px 6px 0px rgba(8,0,8,0.83);
+  box-shadow: 20px 17px 6px 0px rgba(8,0,8,0.83); 
 }
+
 
 .group-btn .btn {
   background-color: #68b351;
-  border: 1px solid green;
-  padding: 15px 32px;
+  border: 1.5px solid green;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  font-weight: bolder;
   cursor: pointer;
+  height: 5em;
+  width: 9em;
 }
 
 .group-btn .btn:not(:last-child) {
