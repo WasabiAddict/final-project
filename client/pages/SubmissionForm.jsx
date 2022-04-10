@@ -78,12 +78,12 @@ const SubmissionForm = ({ env }) => {
                 <div id="text-id" className="text-area">
                     <section id="text-card" className="txtclass-card justify-content-center" style={{ height: "200px" }}>
                         <h4 id="text-title" className="card-title text-center"></h4>
-                        <p className="p-txt d-flex justify-content-center align-items-center" style={{ height: "200px" }}>
-                            Use the form provided below to submit any<br />
+                        <p className="p-txt d-flex justify-content-center align-items-center text-center" style={{ height: "180px" }}>
+                            Use the form provided below to submit any type of <br />
                             hazardous waste you have in your possession.<br />
-                            This will bring you to a map of a local landfill <br />
-                            or recycling center in the Jefferson County area that <br />
-                            is able to accept and dispose of that specific material.</p>
+                            This will bring you to a map of a local landfill or<br />
+                            recycling center in the Jefferson County, Alabama area that <br />
+                            will be able to accept and dispose of that specific material.</p>
                     </section>
                 </div>
             </div>
@@ -93,43 +93,49 @@ const SubmissionForm = ({ env }) => {
 
 
                 <div id="container-id"
-                    className="container d-flex justify-content-center">
+                    className="container-fluid">
                     <div className="row p-0">
                         <div className="col p-0">
-                            <section id="page-card" className="card justify-content-center" style={{ height: "400px" }}>
-                                <h3 id="card-title" className="card-title text-center">Demolition/Construction Waste</h3>
-                                <p className="card-body text-center ">Brick, Concrete, Asphalt, Rubble, Tile, Ferrous Metal, Masonry, Non-Ferrous Metal, Paper, Cardboard, Plastic, Timber, Glass, Rubber, Leather, Paints, Varnishes, Adhesives, Lacquers</p>
-                                <input className="check-box" id="check" type="checkbox" name="checkbox" />
-                            </section>
+                            <div id="page-card" className="card justify-content-center">
+                                <div className='card-body'>
+                                    <h3 id="card-title" className="card-title text-center">Demolition/Construction Waste</h3>
+                                    <p className="card-text text-center ">Brick, Concrete, Asphalt, Rubble, Tile, Ferrous Metal, Masonry, Non-Ferrous Metal, Paper, Cardboard, Plastic, Timber, Glass, Rubber, Leather, Paints, Varnishes, Adhesives, Lacquers</p>
+                                    <input className="check-box" id="check1" type="checkbox" name="checkbox" />
+                                </div>
+                            </div>
                         </div>
 
                         <div className="col p-0">
-                            <section id="page-card" className="card justify-content-center" style={{ height: "400px" }}>
-                                <h3 id="card-title" className="card-title text-center">Hazardous Waste</h3>
-                                <p className="card-body text-center ">Asbestos, Chemicals (Brake fluid or printer toner), Batteries (household and car batteries) Solvents, Pesticides, Car Oil, Fluorescent Tubes, Electrical items (tvs and fridge/freezer)</p>
-                                <input className="check-box" id="check" type="checkbox" name="checkbox" />
-                            </section>
+                            <div id="page-card" className="card justify-content-center" >
+                                <div className='card-body'>
+                                    <h3 id="card-title" className="card-title text-center">Hazardous Waste</h3>
+                                    <p className="card-text text-center ">Asbestos, Chemicals (Brake fluid or printer toner), Batteries (household and car batteries) Solvents, Pesticides, Car Oil, Fluorescent Tubes, Electrical items (tvs and fridge/freezer)</p>
+                                    <input className="check-box" id="check2" type="checkbox" name="checkbox" />
+                                </div>
+                            </div>
                         </div>
 
                         <div className="col p-0">
-                            <section id="page-card" className="card justify-content-center" style={{ height: "400px" }}>
-                                <h3 id="card-title" className="card-title text-center">Household Waste</h3>
-                                <p className="card-body text-center ">Garbage, trash, and sanitary wastes in septic tanks and medical waste, that is derived from households, farms, or ranches. Household waste does not include trauma scene waste.</p>
-                                <input className="check-box" id="check" type="checkbox" name="checkbox" />
-                            </section>
+                            <div id="page-card" className="card justify-content-center">
+                                <div className='card-body'>
+                                    <h3 id="card-title" className="card-title text-center">Household Waste</h3>
+                                    <p className="card-text text-center ">Garbage, trash, and sanitary wastes in septic tanks and medical waste, that is derived from households, farms, or ranches. Household waste does not include trauma scene waste.</p>
+                                    <input className="check-box" id="check3" type="checkbox" name="checkbox" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row button-style p-0">
+                        <div className='group-btn' id='group-id'>
+                            <input type='submit' value='Submit' className='btn submitbtn' />
+                            <button className='btn cancelbtn' onClick={handleCancel}>
+                                Cancel
+                            </button>
                         </div>
                     </div>
                 </div>
-
-                <div className='group-btn'>
-                    <input type='submit' value='Submit' className='btn submitbtn' />
-                    <button className='btn cancelbtn' onClick={handleCancel}>
-                        Cancel
-                    </button>
-                </div>
             </form>
-
-
         </>
     );
 };
