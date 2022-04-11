@@ -40,7 +40,14 @@ const Navbar = () => {
                         <a className="navHover" href="#">Submission Form</a>
                     </li>
                 </Link>
+                <Link to="/MeetTheDevs">
                 <li><a className="navHover" href="#">Meet The Devs</a></li>
+                </Link>
+                <Link to="/Reviews">
+                    <li>
+                        <a className="navHover" href="#">Reviews</a>
+                    </li>
+                </Link>
             </ul>
             <div className="burger">
                 <div className="line1"></div>
