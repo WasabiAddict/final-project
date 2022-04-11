@@ -20,19 +20,3 @@ background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
 #ImageTitle {
 background-image: url(../public/assets/NewTitle.png);
 }
-/*
-#David {
-    background-image: url(../public/assets/David.png);
-}
-
-#Santita {
-    background-image: url(../public/assets/Santita.jpeg);
-}
-
-#Dalton {
-    background-image: url(../public/assets/Dalton.png);
-}  
-
-<img src="../assets/David.png" style={{height:"300px", width:"300px"}}></img>
-<img src="../assets/Santita.jpeg" style={{height:"300px", width:"300px"}}></img>
-<img src="../assets/Dalton.png" style={{height:"300px", width:"300px"}}></img>
