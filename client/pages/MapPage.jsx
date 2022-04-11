@@ -1,5 +1,6 @@
 import React from "react";
-import Map from "../components/Map";
+import Map from "./Map.jsx";
+
 
 
 
@@ -8,7 +9,7 @@ const MapPage = () => {
         <><div className="container">
             <div className="row">
                 <div className="col-2">
-                    <div className="infobox bg-success">
+                    <div className="infobox">
                         <p className="text-center font-weight-bold text-white">Avg. Price of Recyclable Metals per Pound in Alabama</p>
                         <p className="text-center text-white">Aluminum Cans $0.3 USD/LB</p>
                         <p className="text-center text-white">Yellow Brass Scrap $0.90 USD/LB</p>
@@ -21,12 +22,12 @@ const MapPage = () => {
 
 
                 <div className="col-8">
-                    <Map />
+                    <Map/>
                 </div>
 
 
                 <div className="col-2">
-                    <div className="infobox bg-success" >
+                    <div className="infobox" >
                         <p className="text-center text-white">This where the info on relevant landfills will be displayed.</p>
 
                     </div>
@@ -35,7 +36,15 @@ const MapPage = () => {
             </div>
 
         </div>
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    
+                </div>
+            </div>
 
+        </div>
+        
         </>
     )
 }

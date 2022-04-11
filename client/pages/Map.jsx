@@ -37,7 +37,7 @@ const Map = () => {
 
 export default function MapComponent() {
     return (
-        <div className="" style = {{width: '80vw', height: '80vh'}}>
+        <div className="" >
             <WrappedMap googleMapURL={"https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyB7bkTx3LV_Q86V3P3LCHle4OmJnuQ5gOI"}
                 loadingElement={<div style={{ height: "100%" }} />}
                 containerElement={<div style={{ height: "100%" }} />}
