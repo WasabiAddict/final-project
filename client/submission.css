@@ -1,7 +1,7 @@
-/*body {
-  background-color: #87ceeb !important;
+body {
+  background-color: rgb(22, 22, 22) !important;
 }
-*/
+
 
 .check-box {
   padding-top: 4em;
@@ -76,8 +76,8 @@
 }
 
 #title-id {
-  background-color: cyan;
-  border: groove black;
+  background-color: #111111;
+  border: groove #AEF359;
   padding: 5px;
   height:17em;
   margin-top: 5em;
@@ -127,3 +127,4 @@
 .group-btn .btn:hover {
   background-color: #fdfd96
 }
+
