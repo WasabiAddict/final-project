@@ -1,25 +1,31 @@
-// import * as mysql from "mysql";
+import * as mysql from "mysql";
 
-// const connection = mysql.createConnection({
-//     host: 'localhost',
-//     port: 3306,
-//     database: "c16_chirpr",
-//     user: 'chirprapp',
-//     password: 'password'
-// });
+const connection = mysql.createConnection({
+    host: 'localhost',
+    port: 3306,
+    database: "dumpsite",
+    user: 'team5',
+    password: 'team5admin'
+});
 
-// export const Query = (query, values) => {
-//     return new Promise((resolve, reject) => {
-//         connection.query(query, values, (err, results) => {
-//             if (err) throw err;
-//             resolve(results);
-//         });
-//     });
-// }
+export const Query = (query, values) => {
+    return new Promise((resolve, reject) => {
+        connection.query(query, values, (err, results) => {
+            if (err) throw err;
+            resolve(results);
+        });
+    });
+}
 
-// import chirps from "./example";
+import Landfills from "./landfills";
+import Landfilltypes from "./landfilltypes";
+import Hours from "./hours";
+import Prices from "./prices";
 
 // // this becomes db object in routes/chirps.js
-// export default {
-//     chirps
-// }
+export default {
+    Landfills,
+    Landfilltypes,
+    Hours,
+    Prices
+}
