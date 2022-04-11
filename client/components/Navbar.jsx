@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="logo">
                 <h4>Waste 'R' Us</h4>
             </div>
-            <ul className="nav-links">
+            <ul className="nav-links" id="nav-id">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Map</a></li>
                 <li><a href="#">Submission Form</a></li>

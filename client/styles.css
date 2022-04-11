@@ -38,6 +38,16 @@ nav {
     font-size: 14px;
 }
 
+.anchorHome {
+    cursor: pointer;
+}
+
+
+
+.anchorHome:hover {
+    background-color: #fdfd96;
+}
+
 .burger {
     display: none;
     cursor: pointer;

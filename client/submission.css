@@ -80,7 +80,7 @@ body {
   border: groove black;
   padding: 5px;
   height:17em;
-  margin-top: 5em;
+  margin-top: 5npem;
   margin-bottom: 1px;
   border-top-right-radius: 10em;
   border-top-left-radius: 10em;
@@ -125,5 +125,8 @@ body {
 }
 
 .group-btn .btn:hover {
-  background-color: #fdfd96
-}
+  background-color: #fdfd96;
+  box-shadow: 0px 15px 20px rgba(1, 10, 7, 0.4);
+  color: rgb(8, 1, 1);
+  transform: translateY(-7px);
+};
