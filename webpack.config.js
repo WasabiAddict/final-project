@@ -46,7 +46,19 @@ let clientConfig = {
 			{
 				test: /\.css$/,
 				use: ['style-loader', 'css-loader']
-			}
+			},
+			{
+                test: /\.(png|svg|jpg|gif|jpeg)$/,
+                use: {
+                    loader: 'file-loader',
+                    options: {
+                        name: "[name].[ext]",
+                        outputPath: "../img",
+                        esModule: false
+                    }
+                },
+            },
+
 		]
 	}
 };

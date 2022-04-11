@@ -4,15 +4,16 @@ import Navbar from "./components/Navbar.jsx"
 import Home from "./pages/Home.jsx";
 import SubmissionForm from "./pages/SubmissionForm.jsx";
 
-// const App = () => {
-//     return (
-//         <BrowserRouter>
-//             <Routes>
-//                 <Route path="/" element={<Home />} />
-//             </Routes>
-//         </BrowserRouter>
-//     )
+ //const App = () => {
+  //  return (
+   //     <BrowserRouter>
+   //         <Routes>
+   //             <Route path="/" element={<Home />} />
+   //          </Routes>
+   //     </BrowserRouter>
+  //   )
 // };
+
 
 const App = () => {
     return (
@@ -22,9 +23,11 @@ const App = () => {
             <Routes>
                 <Route path="/SubmissionForm" element={<SubmissionForm/>} />
                 {/* <Route path="/map/:type" element={}/> */}
+                <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
     )
 };
 
 export default App;
+

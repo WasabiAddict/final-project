@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "react-router-dom"
+
 
 const Navbar = () => {
     // const burger = document.querySelector('.burger');
@@ -26,11 +28,26 @@ const Navbar = () => {
             <div className="logo">
                 <h4>Waste 'R' Us</h4>
             </div>
-            <ul className="nav-links" id="nav-id">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Map</a></li>
-                <li><a href="#">Submission Form</a></li>
-                <li><a href="#">Reviews</a></li>
+            <ul className="nav-links">
+                <Link to="/">
+                    <li>
+                        <a className="navHover" href="#">Home</a>
+                    </li>
+                </Link>
+                <li><a className="navHover" href="#">Map</a></li>
+                <Link to="/SubmissionForm">
+                    <li>
+                        <a className="navHover" href="#">Submission Form</a>
+                    </li>
+                </Link>
+                <Link to="/MeetTheDevs">
+                <li><a className="navHover" href="#">Meet The Devs</a></li>
+                </Link>
+                <Link to="/Reviews">
+                    <li>
+                        <a className="navHover" href="#">Reviews</a>
+                    </li>
+                </Link>
             </ul>
             <div className="burger">
                 <div className="line1"></div>

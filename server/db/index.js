@@ -21,11 +21,13 @@ import Landfills from "./landfills";
 import Landfilltypes from "./landfilltypes";
 import Hours from "./hours";
 import Prices from "./prices";
+import Reviews from "./reviews";
 
 // // this becomes db object in routes/chirps.js
 export default {
     Landfills,
     Landfilltypes,
     Hours,
-    Prices
+    Prices,
+    Reviews
 }
