@@ -2,20 +2,21 @@
 #description {
 font-size: 20px;
 color: white;
+padding-top: 320px;
 }
 
 #founded {
-    font-size: 20px; 
-padding-top: 600px;
+font-size: 20px; 
+padding-top: 100px;
 color: white;
 }
 
 #root {
-    background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
+background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
 }
 
 
 
 #ImageTitle {
-background-image: url(../public/assets/unknowntwo.png);
+background-image: url(../public/assets/NewTitle.png);
 }
