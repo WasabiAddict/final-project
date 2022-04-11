@@ -2,20 +2,37 @@
 #description {
 font-size: 20px;
 color: white;
+padding-top: 320px;
 }
 
 #founded {
-    font-size: 20px; 
-padding-top: 600px;
+font-size: 20px; 
+padding-top: 100px;
 color: white;
 }
 
-#root {
-    background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
+body {
+background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
 }
 
 
 
 #ImageTitle {
-background-image: url(../public/assets/unknowntwo.png);
+background-image: url(../public/assets/NewTitle.png);
 }
+/*
+#David {
+    background-image: url(../public/assets/David.png);
+}
+
+#Santita {
+    background-image: url(../public/assets/Santita.jpeg);
+}
+
+#Dalton {
+    background-image: url(../public/assets/Dalton.png);
+}  
+
+<img src="../assets/David.png" style={{height:"300px", width:"300px"}}></img>
+<img src="../assets/Santita.jpeg" style={{height:"300px", width:"300px"}}></img>
+<img src="../assets/Dalton.png" style={{height:"300px", width:"300px"}}></img>
