@@ -14,6 +14,7 @@ import MapPage from "./pages/MapPage.jsx";
 //     )
 // };
 
+
 const App = () => {
     return (
         <BrowserRouter>
@@ -22,9 +23,11 @@ const App = () => {
             <Routes>
                 <Route path="/Map" element={<MapPage/>} />
                 {/* <Route path="/map/:type" element={}/> */}
+                <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
     )
 };
 
 export default App;
+
