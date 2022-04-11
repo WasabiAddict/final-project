@@ -14,6 +14,7 @@ import SubmissionForm from "./pages/SubmissionForm.jsx";
 //     )
 // };
 
+
 const App = () => {
     return (
         <BrowserRouter>
@@ -28,3 +29,4 @@ const App = () => {
 };
 
 export default App;
+
