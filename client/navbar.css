@@ -50,6 +50,16 @@ nav {
     transition: all 0.3s ease 0s;
 }
 
+.anchorHome {
+    cursor: pointer;
+}
+
+
+
+.anchorHome:hover {
+    background-color: #fdfd96;
+}
+
 .burger {
     display: none;
 }
