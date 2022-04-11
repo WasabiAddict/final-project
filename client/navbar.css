@@ -9,7 +9,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color:  #87cc32;
+    background-color:  #6eaa24;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -35,7 +35,7 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
     
 }
