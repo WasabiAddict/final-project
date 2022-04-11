@@ -133,4 +133,10 @@ body {
 
 .group-btn .btn:hover {
   background-color: #fdfd96;
+<<<<<<< HEAD
+=======
+  box-shadow: 0px 15px 20px rgba(1, 10, 7, 0.4);
+  color: rgb(8, 1, 1);
+  transform: translateY(-7px);
+>>>>>>> d994c668952c7423fe664e363b3885ef80832a71
 }
