@@ -14,8 +14,8 @@ color: white;
     background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
 }
 
-#title {
-font-size: 120px;
-color: #98ab24;
-padding-left: 230px;
+
+
+#ImageTitle {
+background-image: url(../public/assets/unknowntwo.png);
 }
