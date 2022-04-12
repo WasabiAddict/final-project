@@ -4,6 +4,7 @@ import React from 'react';
 
 const Home = () => {
     return (
+
         <div id="home-container">
             <main className="container mt-5">
                 <section className="justify-content-center">
@@ -13,6 +14,7 @@ const Home = () => {
                 </section>
             </main>
         </div>
+
 
     )
 }
