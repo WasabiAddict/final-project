@@ -26,7 +26,7 @@ const Navbar = () => {
     return (
         <nav>
             <div className="logo">
-                <h4>Waste 'R' Us</h4>
+            <img src="../assets/NewTitle.png" style={{height:"100px", width:"500px"}}></img>
             </div>
             <ul className="nav-links">
                 <Link to="/">
@@ -42,11 +42,6 @@ const Navbar = () => {
                 </Link>
                 <Link to="/MeetTheDevs">
                 <li><a className="navHover" href="#">Meet The Devs</a></li>
-                </Link>
-                <Link to="/Reviews">
-                    <li>
-                        <a className="navHover" href="#">Reviews</a>
-                    </li>
                 </Link>
             </ul>
             <div className="burger">

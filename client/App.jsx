@@ -6,11 +6,11 @@ import SubmissionForm from "./pages/SubmissionForm.jsx";
 
  //const App = () => {
   //  return (
-   //     <BrowserRouter>
-   //         <Routes>
-   //             <Route path="/" element={<Home />} />
-   //          </Routes>
-   //     </BrowserRouter>
+    //    <BrowserRouter>
+    //        <Routes>
+    //            <Route path="/" element={<Home />} />
+    //         </Routes>
+    //    </BrowserRouter>
   //   )
 // };
 
@@ -22,7 +22,7 @@ const App = () => {
 
             <Routes>
                 <Route path="/SubmissionForm" element={<SubmissionForm/>} />
-                {/* <Route path="/map/:type" element={}/> */}
+                {/* <Route path="/map/:type" element={<mappage/>}/> */}
                 <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>
