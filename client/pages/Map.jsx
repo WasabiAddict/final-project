@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from "react";
-import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps"
+import React, { useState, useEffect } from "react";
+import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from "react-google-maps"
 
 
 
@@ -8,14 +8,23 @@ import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps"
 
 
 const Map = () => {
+    const [selectedLandfill, setSelectedLandfill] = useState(null)
     const [landfills, setLandFills] = useState([]);
-    const [userLocation, setUserLocation] = useState({})
+    const [hours, setHours] = useState([])
 
-    useEffect(()=> {
-        (async ()=> {
+    useEffect(() => {
+        (async () => {
             const data = await fetch("/api/locations");
             const locations = await data.json();
             setLandFills(locations);
+        })();
+    }, []);
+
+    useEffect(() => {
+        (async () => {
+            const hourinfo = await fetch("/api/hours")
+            const businesshours = await hourinfo.json()
+            setHours(businesshours)
         })();
     }, []);
 
@@ -29,6 +38,46 @@ const Map = () => {
         <>
             <GoogleMap defaultZoom={10}
                 defaultCenter={{ lat: 33.518589, lng: -86.810356 }}>
+
+                {landfills.map(landfill => {
+                    console.log(parseInt(landfill.latitude))
+                    return <Marker
+                        key={landfill.id}
+                        position={{
+                            lat: parseFloat(landfill.latitude),
+                            lng: parseFloat(landfill.longitude)
+                        }} onClick={() => {
+                            setSelectedLandfill(landfill)
+                        }}
+                        
+                        //icon =   {require("client\assets\images.png")
+                    //    icon = {{backgroundImage: url("../assets/images.png"),
+                    //    height: "1em",
+                    //    width: "1em"
+                   // }}
+                        
+                        
+                    />
+                })}
+                {selectedLandfill && (
+                    <InfoWindow  
+                    
+                    position = {{
+                            lat: parseFloat(selectedLandfill.latitude),
+                            lng: parseFloat(selectedLandfill.longitude)
+                        }}
+                        onCloseClick = {()=>{
+                            setSelectedLandfill(null)
+
+                        }}
+                    >
+                      
+                        <div>
+                            <h4>LandFill</h4>
+                            <p>{}</p>
+                        </div>
+                    </InfoWindow>
+                )}
 
             </GoogleMap>
         </>

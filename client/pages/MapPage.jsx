@@ -22,7 +22,7 @@ const MapPage = () => {
 
 
                 <div className="col-8">
-                    <Map/>
+                    <Map/> 
                 </div>
 
 
@@ -36,14 +36,14 @@ const MapPage = () => {
             </div>
 
         </div>
-        <div className="container">
+        
             <div className="row">
                 <div className="col-12">
-                    
+                   
                 </div>
             </div>
 
-        </div>
+        
         
         </>
     )

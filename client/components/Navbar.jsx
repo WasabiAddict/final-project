@@ -34,14 +34,19 @@ const Navbar = () => {
                         <a className="navHover" href="#">Home</a>
                     </li>
                 </Link>
-                <li><a className="navHover" href="#">Map</a></li>
+                <Link to = "/Map">
+                    <li>
+                        <a className="navHover" href="#">Map</a>
+                    </li>
+                </Link>
+
                 <Link to="/SubmissionForm">
                     <li>
                         <a className="navHover" href="#">Submission Form</a>
                     </li>
                 </Link>
                 <Link to="/MeetTheDevs">
-                <li><a className="navHover" href="#">Meet The Devs</a></li>
+                    <li><a className="navHover" href="#">Meet The Devs</a></li>
                 </Link>
                 <Link to="/Reviews">
                     <li>
