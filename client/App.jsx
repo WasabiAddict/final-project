@@ -21,8 +21,8 @@ const App = () => {
             <Navbar />
 
             <Routes>
-                <Route path="/SubmissionForm" element={<SubmissionForm/>} />
-                {/* <Route path="/map/:type" element={<mappage/>}/> */}
+                <Route path="/Map" element={<MapPage/>} />
+                {/* <Route path="/map/:type" element={}/> */}
                 <Route path="/" element={<Home />} />
             </Routes>
         </BrowserRouter>

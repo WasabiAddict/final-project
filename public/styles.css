@@ -1,34 +1,22 @@
+
 #description {
-  font-size: 20px;
-  color: white;
-  padding-top: 320px;
+font-size: 20px;
+color: white;
+padding-top: 320px;
 }
 
 #founded {
-  font-size: 20px;
-  padding-top: 100px;
-  color: white;
+font-size: 20px; 
+padding-top: 100px;
+color: white;
 }
-/* vvvvv gradient background for submissions page, dont delete vvvvvv */
+
 #root {
-    background-image: url(https://cutewallpaper.org/21/black-radial-gradient-background/Grey-Radial-Gradient-Background-10-West-Street-Willys-Eatery.jpg);
-    padding-bottom: 1px;
-    position: relative;
+background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
 }
 
 
-
-.container {
-  background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-  position: relative;
- }
 
 #ImageTitle {
-  background-image: url(../public/assets/NewTitle.png);
-  position: relative;
+background-image: url(../public/assets/NewTitle.png);
 }
-
