@@ -9,7 +9,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color:  #87cc32;
+    background-color:  #6eaa24;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -35,7 +35,7 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
     
 }
@@ -43,7 +43,7 @@ nav {
 .navHover:hover {
     background-color: yellow;
     opacity: .8;
-    box-shadow: 0px 15px 20px rgba(1, 10, 7, 0.4);
+    box-shadow: 0px 15px 20px rgba(1, 10, 7, 0.4) !important;
     color: rgb(8, 1, 1);
     transform: translateY(-7px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
