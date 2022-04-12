@@ -34,12 +34,11 @@ const Navbar = () => {
                         <a className="navHover" href="#">Home</a>
                     </li>
                 </Link>
-                <Link to = "/Map">
+               <Link to= "/mappage"> 
                     <li>
                         <a className="navHover" href="#">Map</a>
                     </li>
-                </Link>
-
+               </Link> 
                 <Link to="/SubmissionForm">
                     <li>
                         <a className="navHover" href="#">Submission Form</a>

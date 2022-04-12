@@ -20,3 +20,10 @@ background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
 #ImageTitle {
 background-image: url(../public/assets/NewTitle.png);
 }
+
+.devsTitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 5px;
+
+}

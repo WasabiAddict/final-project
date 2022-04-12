@@ -7,6 +7,7 @@ import App from './App.jsx';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./navbar.css"
+import "./mappage.css"
 
 import"./mappage.css"
 
