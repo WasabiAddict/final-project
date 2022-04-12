@@ -4,6 +4,7 @@ import React from 'react';
 
 const Home = () => {
     return (
+
         <main className="container mt-5">
             <section className="justify-content-center">
             <img src="../assets/NewTitle.png" style={{height:"400px", width:"1112px"}}></img>
@@ -13,6 +14,8 @@ const Home = () => {
                </main>
     )
 
+
+    )
 }
 
 export default Home;
