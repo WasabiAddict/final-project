@@ -9,19 +9,23 @@ body {
   height: 2.5em;
   margin-bottom: 6em;
   cursor: pointer;
+  position: relative;
 }
 
 
 .check-box:hover {
-  accent-color: #fdfd96
+  accent-color: #fdfd96;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: rgba(1, 10, 7, 0.4);
+  transform: translateY(-7px);
 }
 
 #text-container {
     width: 100%;
     height: 30%;
-    background-color: #fdfd96;
-    border: groove black;
-    margin-bottom: 1px;
+    background-color:#8c8c8c;
+    border: solid #c5e0b4;;
+    /* margin-bottom: 10px; */
 }
 
 .p-txt {
@@ -46,12 +50,12 @@ body {
 
 
 #submission-id {
-  background-color: cyan;
-  border-top-style: groove !important;
+  background-color: #515154;
+  border-top-style: solid !important;
   border-bottom-style: groove !important;
   border-bottom-left-radius: 10em;
   border-bottom-right-radius: 10em;
-  border:solid black;
+  border:solid #c5e0b4;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
@@ -71,24 +75,26 @@ body {
   margin-top: 3em;
   margin-bottom: 17rem;
   padding-top: 3em;
-  background-color: cyan;
   max-width: 1350px !important;
 }
 
 #title-id {
-  background-color: cyan;
-  border: groove black;
+  background-color: #515154;
+  border: groove;
   padding: 5px;
   height:17em;
   margin-top: 5em;
   margin-bottom: 1px;
   border-top-right-radius: 10em;
   border-top-left-radius: 10em;
+  border:solid #c5e0b4;
 
 }
 
 .h1, h1 {
   font-family: "Times New Roman", Times, serif !important;
+  color: rgba(255, 255, 255, 0.808);
+  /* color: #c5e0b4; */
   font-weight: 800 !important;
   font-size: 3.3em !important;
 }
@@ -98,20 +104,24 @@ body {
 }
 
 #page-card {
-  background-color: #68b351;
+  background-color:#87cc32;
   height: 400px;
-  -webkit-box-shadow: 21px 16px 9px 1px rgba(0,0,0,0.6);
-  -moz-box-shadow: 21px 16px 9px 1px rgba(0,0,0,0.6);
-  box-shadow: 21px 16px 9px 1px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 21px 16px 9px 1px rgba(13,13,13,1);
+  -moz-box-shadow: 21px 16px 9px 1px rgba(13,13,13,1);
+  box-shadow: 21px 16px 9px 1px rgba(13,13,13,1);
 }
 
 #group-id {
   margin-top: 2em;
+  -webkit-box-shadow: 21px 16px 9px 1px rgba(13,13,13,1);
+  -moz-box-shadow: 21px 16px 9px 1px rgba(13,13,13,1);
+  box-shadow: 21px 16px 9px 1px rgba(13,13,13,1);
 }
 
+
 .group-btn .btn {
-  background-color: #68b351;
-  border: 1.5px solid green;
+  background-color: #87cc32;
+  border: 1.5px solid #c5e0b4;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: bolder;
@@ -125,5 +135,5 @@ body {
 }
 
 .group-btn .btn:hover {
-  background-color: #fdfd96
+  background-color: #fdfd96;
 }
