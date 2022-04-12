@@ -22,8 +22,9 @@ const Map = () => {
 
     useEffect(() => {
         (async () => {
-            const hourinfo = await fetch("/api/hours")
+            const hourinfo = await fetch("/api/times")
             const businesshours = await hourinfo.json()
+            console.log(businesshours)
             setHours(businesshours)
         })();
     }, []);
@@ -49,32 +50,37 @@ const Map = () => {
                         }} onClick={() => {
                             setSelectedLandfill(landfill)
                         }}
-                        
-                        //icon =   {require("client\assets\images.png")
+
+                    //icon =   {require("client\assets\images.png")
                     //    icon = {{backgroundImage: url("../assets/images.png"),
                     //    height: "1em",
                     //    width: "1em"
-                   // }}
-                        
-                        
+                    // }}
+
+
                     />
                 })}
                 {selectedLandfill && (
-                    <InfoWindow  
-                    
-                    position = {{
+                    <InfoWindow
+
+                        position={{
                             lat: parseFloat(selectedLandfill.latitude),
                             lng: parseFloat(selectedLandfill.longitude)
                         }}
-                        onCloseClick = {()=>{
+                        onCloseClick={() => {
                             setSelectedLandfill(null)
 
                         }}
                     >
-                      
+
                         <div>
-                            <h4>LandFill</h4>
-                            <p>{}</p>
+                            {/* {hours.map(hour => (
+                                <>
+                                <h1>{hour.startTime}</h1>
+                                <h1>{hour.endTime}</h1>
+                                </>
+                                
+                            ))} */}
                         </div>
                     </InfoWindow>
                 )}
