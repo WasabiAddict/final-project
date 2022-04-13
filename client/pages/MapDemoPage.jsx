@@ -1,10 +1,9 @@
 import React from "react";
-import Map from "./Map.jsx";
-import "../mappage.css";
+import MapDemo from "./MapDemo.jsx"
+import "../mapdemopage.css";
 
 
-
-const MapPage = () => {
+const MapDemoPage = () => {
     return (
         <><div className="container">
             <div className="row">
@@ -22,10 +21,11 @@ const MapPage = () => {
 
 
                 <div className="col-10 mapbox mt-5">
-                    <Map/> 
+                    <MapDemo/> 
                 </div>
 
 
+               
             </div>
 
         </div>
@@ -42,4 +42,4 @@ const MapPage = () => {
     )
 }
 
-export default MapPage
+export default MapDemoPage

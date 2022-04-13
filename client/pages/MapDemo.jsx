@@ -7,14 +7,15 @@ import { GoogleMap, withScriptjs, withGoogleMap, Marker, InfoWindow } from "reac
 
 
 
-const Map = () => {
+const MapDemo = () => {
     const [selectedLandfill, setSelectedLandfill] = useState(null)
     const [landfills, setLandFills] = useState([]);
     const [hours, setHours] = useState([])
 
+
     useEffect(() => {
         (async () => {
-            const data = await fetch("/api/locations");
+            const data = await fetch("/api/wastetypes");
             const locations = await data.json();
             setLandFills(locations);
         })();
@@ -29,11 +30,11 @@ const Map = () => {
         })();
     }, []);
     
-    //useEffect(()=> {
-        //    (async ()=> {
-            //        
-            //    })();
-    //         //}, []);
+    useEffect(()=> {
+            (async ()=> {
+                    
+                })();
+            }, []);
 
 
     return (
@@ -112,5 +113,5 @@ export default function MapComponent() {
     )
 }
 
-const WrappedMap = withScriptjs(withGoogleMap(Map))
+const WrappedMap = withScriptjs(withGoogleMap(MapDemo))
 
