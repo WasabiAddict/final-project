@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
 const SubmissionForm = ({ env }) => {
+    const navigate = useNavigate();
     const [submission, setSubmission] = useState('');
     const [formSubmitted, setFormSubmitted] = useState(false);
     const [formSubmitSuccessful, setFormSubmitSuccessful] = useState(false);
@@ -128,7 +129,7 @@ const SubmissionForm = ({ env }) => {
 
                     <div className="row button-style p-0">
                         <div className='group-btn' id='group-id'>
-                            <input type='submit' value='Submit' className='btn submitbtn' />
+                            <input type='submit' value='Submit' className='btn submitbtn' onClick={() => navigate("/map/household")} />
                             <button className='btn cancelbtn' onClick={handleCancel}>
                                 Cancel
                             </button>
