@@ -15,11 +15,15 @@
     padding-bottom: 1px;
     position: relative;
 }
-#home-container {
+
+
+
+.container {
   background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
-  background-size: contain;
-  padding-top: .5px;
-  padding-bottom: .5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
   position: relative;
  }
 
@@ -28,3 +32,9 @@
   position: relative;
 }
 
+.devsTitle {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 5px;
+
+}
