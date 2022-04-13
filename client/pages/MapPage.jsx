@@ -6,7 +6,7 @@ import "../mappage.css";
 
 const MapPage = () => {
     return (
-        <><div className="container">
+        <><div className="">
             <div className="row">
                 <div className="col-2">
                     <div className="infobox">
@@ -21,7 +21,7 @@ const MapPage = () => {
                 </div>
 
 
-                <div className="col-8">
+                <div className="col-8 mt-2" >
                     <Map/> 
                 </div>
 

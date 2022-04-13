@@ -8,8 +8,8 @@ const MeetTheDevs = () => {
                 <h1>Meet Our Developers</h1>
             </div>
             <div className='row justify-content-center'>
-                <div className=" col-md-3 mb-2">
-                    <div className="card shadow-rounded ">
+                <div className=" col-4 mb-2">
+                    <div className="card shadow-lg p-3 mb-5 bg-white rounded ">
                         <div style={{height:400, objectFit: "cover"}} className="card top">
                             <img src="../assets/David2.jpg" alt=""  height='100%'  />
                         </div>
@@ -20,8 +20,8 @@ const MeetTheDevs = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" col-md-3">
-                    <div className="card shadow-rounded ">
+                <div className=" col-4 mb-2">
+                    <div className="card shadow-lg p-3 mb-5 bg-white rounded ">
                         <div  style={{height:400, objectFit: "cover"}} className="card top">
                             <img id="dalton" src="../assets/Dalton.png" alt=""  height='100%'  />
                         </div>
@@ -32,8 +32,8 @@ const MeetTheDevs = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" col-md-3">
-                    <div className="card shadow-rounded ">
+                <div className=" col-4 mb-2">
+                    <div className="card shadow-lg p-3 mb-5 bg-white rounded ">
                         <div  style={{height:400, objectFit: "cover"}} className="card top">
                             <img src="../assets/kurt.jpg" alt=""  height='100%'  />
                         </div>
@@ -44,8 +44,8 @@ const MeetTheDevs = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" col-md-3">
-                    <div className="card shadow-rounded ">
+                <div className=" col-4 mb-2">
+                    <div className="card shadow-lg p-3 mb-5 bg-white rounded ">
                         <div  style={{height:400, objectFit: "cover"}} className="card top">
                             <img src="../assets/Jacob.png" alt=""  height='100%' />
                         </div>
@@ -56,8 +56,8 @@ const MeetTheDevs = () => {
                         </div>
                     </div>
                 </div>
-                <div className=" col-md-3">
-                    <div className="card shadow-rounded ">
+                <div className=" col-4 mb-2">
+                    <div className="card shadow-lg p-3 mb-5 bg-white rounded ">
                         <div  style={{height:400, objectFit: "cover"}} className="card top">
                             <img src="../assets/Abigail.jpg" alt="" height='100%' />
                         </div>
@@ -69,8 +69,8 @@ const MeetTheDevs = () => {
                     </div>
                 </div>
 
-                <div className=" col-md-3">
-                    <div className="card shadow-rounded ">
+                <div className=" col-4 mb-2">
+                    <div className="card shadow-lg p-3 mb-5 bg-white rounded ">
                         <div  style={{height:400, objectFit: "cover"}} className="card top">
                             <img src="../assets/Santita.jpeg" alt="" height='100%' />
                         </div>
