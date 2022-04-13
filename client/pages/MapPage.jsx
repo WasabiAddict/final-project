@@ -6,7 +6,7 @@ import "../mappage.css";
 
 const MapPage = () => {
     return (
-        <><div className="">
+        <><div className="container">
             <div className="row">
                 <div className="col-2">
                     <div className="infobox">
