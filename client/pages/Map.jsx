@@ -37,7 +37,7 @@ const Map = () => {
 
     return (
         <>
-            <GoogleMap defaultZoom={10}
+            <GoogleMap style={{outerHeight: "100%", outerWidth: "100%"}} defaultZoom={10}
                 defaultCenter={{ lat: 33.518589, lng: -86.810356 }}>
 
                 {landfills.map(landfill => {
