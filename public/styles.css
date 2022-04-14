@@ -23,14 +23,13 @@
 
 
 
-#hpBg {
+#wrapper-id {
   background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
-  position: relative;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  padding-bottom: 0;
 }
+
 
 #ImageTitle {
   background-image: url(../public/assets/NewTitle.png);
