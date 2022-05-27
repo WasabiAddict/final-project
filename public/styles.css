@@ -20,15 +20,18 @@
   min-height: 100%;
   position: relative;
 }
+ NewBranch
 
 
 
 #hpBg {
+=======
+#home-container {
+
   background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+  background-size: contain;
+  padding-top: .5px;
+  padding-bottom: .5px;
   position: relative;
 }
 
@@ -37,9 +40,3 @@
   position: relative;
 }
 
-.devsTitle {
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin: 5px;
-
-}

@@ -48,11 +48,11 @@ const Navbar = () => {
                 <Link to="/MeetTheDevs">
                     <li><a className="navHover" href="#">Meet The Devs</a></li>
                 </Link>
-                {/* <Link to="/Reviews">
+                <Link to="/Reviews">
                     <li>
                         <a className="navHover" href="#">Reviews</a>
                     </li>
-                </Link> */}
+                </Link>
             </ul>
             <div className="burger">
                 <div className="line1"></div>
