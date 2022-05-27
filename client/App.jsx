@@ -5,15 +5,18 @@ import Home from "./pages/Home.jsx";
 import MapPage from "./pages/MapPage.jsx";
 import MeetTheDevs from "./pages/MeetTheDevs.jsx";
 import SubmissionForm from "./pages/SubmissionForm.jsx";
-import MapPage from "./pages/MapPage.jsx";
-// const App = () => {
-//     return (
-//         <BrowserRouter>
-//             <Routes>
-//                 <Route path="/" element={<Home />} />
-//             </Routes>
-//         </BrowserRouter>
-//     )
+ NewBranch
+import MapDemoPage from "./pages/MapDemoPage.jsx"
+
+ //const App = () => {
+  //  return (
+   //     <BrowserRouter>
+   //         <Routes>
+   //             <Route path="/" element={<Home />} />
+   //          </Routes>
+   //     </BrowserRouter>
+  //   )
+
 // };
 
 
@@ -27,6 +30,7 @@ const App = () => {
                 <Route path="/SubmissionForm" element={<SubmissionForm/>} />
                 <Route path="/mappage" element={<MapPage />}/>
                 <Route path="/MeetTheDevs" element={<MeetTheDevs />} />
+                <Route path="/map/household" element = {<MapDemoPage/>}/>
             </Routes>
         </BrowserRouter>
     )
