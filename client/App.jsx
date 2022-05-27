@@ -5,7 +5,6 @@ import Home from "./pages/Home.jsx";
 import MapPage from "./pages/MapPage.jsx";
 import MeetTheDevs from "./pages/MeetTheDevs.jsx";
 import SubmissionForm from "./pages/SubmissionForm.jsx";
- NewBranch
 import MapDemoPage from "./pages/MapDemoPage.jsx"
 
  //const App = () => {
@@ -16,7 +15,6 @@ import MapDemoPage from "./pages/MapDemoPage.jsx"
    //          </Routes>
    //     </BrowserRouter>
   //   )
-
 // };
 
 
