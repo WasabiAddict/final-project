@@ -4,7 +4,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-NewBranch
+
 
         <main className="container" id='hpBg'>
             <section className="justify-content-center">
