@@ -2,16 +2,21 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx"
 import Home from "./pages/Home.jsx";
+import MapPage from "./pages/MapPage.jsx";
+import MeetTheDevs from "./pages/MeetTheDevs.jsx";
 import SubmissionForm from "./pages/SubmissionForm.jsx";
+ NewBranch
+import MapDemoPage from "./pages/MapDemoPage.jsx"
 
  //const App = () => {
   //  return (
-    //    <BrowserRouter>
-    //        <Routes>
-    //            <Route path="/" element={<Home />} />
-    //         </Routes>
-    //    </BrowserRouter>
+   //     <BrowserRouter>
+   //         <Routes>
+   //             <Route path="/" element={<Home />} />
+   //          </Routes>
+   //     </BrowserRouter>
   //   )
+
 // };
 
 
@@ -21,9 +26,11 @@ const App = () => {
             <Navbar />
 
             <Routes>
-                <Route path="/SubmissionForm" element={<SubmissionForm/>} />
-                {/* <Route path="/map/:type" element={<mappage/>}/> */}
                 <Route path="/" element={<Home />} />
+                <Route path="/SubmissionForm" element={<SubmissionForm/>} />
+                <Route path="/mappage" element={<MapPage />}/>
+                <Route path="/MeetTheDevs" element={<MeetTheDevs />} />
+                <Route path="/map/household" element = {<MapDemoPage/>}/>
             </Routes>
         </BrowserRouter>
     )

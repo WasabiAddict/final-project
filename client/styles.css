@@ -9,7 +9,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color:  #87cc32;
+    background-color: #68b351;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -36,22 +36,11 @@ nav {
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
-    cursor: pointer;
-    
-}
-
-.navHover:hover {
-    background-color: yellow;
-    opacity: .8;
-    box-shadow: 0px 15px 20px rgba(1, 10, 7, 0.4);
-    color: rgb(8, 1, 1);
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
 }
 
 .burger {
     display: none;
+    cursor: pointer;
 }
 
 .burger div {

@@ -9,23 +9,31 @@
   padding-top: 100px;
   color: white;
 }
+
 /* vvvvv gradient background for submissions page, dont delete vvvvvv */
 #root {
-    background-image: url(https://cutewallpaper.org/21/black-radial-gradient-background/Grey-Radial-Gradient-Background-10-West-Street-Willys-Eatery.jpg);
-    padding-bottom: 1px;
-    position: relative;
-}
-
-
-
-.container {
-  background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
+  background-image: url(https://cutewallpaper.org/21/black-radial-gradient-background/Grey-Radial-Gradient-Background-10-West-Street-Willys-Eatery.jpg);
+  padding-bottom: 1px;
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100%;
   min-height: 100%;
   position: relative;
- }
+}
+ NewBranch
+
+
+
+#hpBg {
+=======
+#home-container {
+
+  background-image: url(https://wallpapercave.com/wp/wp2529205.jpg);
+  background-size: contain;
+  padding-top: .5px;
+  padding-bottom: .5px;
+  position: relative;
+}
 
 #ImageTitle {
   background-image: url(../public/assets/NewTitle.png);
